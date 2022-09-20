@@ -16,13 +16,41 @@ header {
 
 #logo {
     font-size: 1.5em;
-    color: #333;
+    color: #fff;
     font-family: sans-serif;
     font-weight: 600;
 }
 
 #Ahead {
-    color: #333;
+    color: #fff;
     margin: 1em;
     font-size: 1.5em;
+    position: relative;
+}
+
+#Ahead::before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-size: contain;
+    margin-right: 0.5em;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+#Ahead:hover::before {
+    width: 100%;
+}
+
+
+.background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
