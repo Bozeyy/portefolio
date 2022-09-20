@@ -1,0 +1,30 @@
+header {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #333 0 0 10px;
+    padding: 1em;
+}
+
+
+.Lhead {
+    margin-left: 10%;
+}
+
+.Rhead {
+    margin-right: 10%;
+}
+
+#logo {
+    font-size: 1.5em;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#Ahead {
+    color: #333;
+    margin: 1em;
+    font-size: 1.5em;
+}
