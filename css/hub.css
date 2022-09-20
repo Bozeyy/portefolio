@@ -1,9 +1,7 @@
 header {
-    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: #333 0 0 10px;
     padding: 1em;
 }
 
