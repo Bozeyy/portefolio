@@ -5,6 +5,14 @@ header {
     padding: 1em;
 }
 
+html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    height: 90%;
+}
 
 .Lhead {
     margin-left: 10%;
@@ -26,6 +34,7 @@ header {
     margin: 1em;
     font-size: 1.5em;
     position: relative;
+    padding-bottom: 2px;
 }
 
 #Ahead::before {
@@ -54,3 +63,111 @@ header {
     top: 0;
     z-index: -1;
 }
+
+main {
+    height: 100%;
+    display: flex;
+}
+
+.Lmain {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    -webkit-backdrop-filter: blur(6px); /* assure la compatibilité avec safari */
+    backdrop-filter: blur(6px);
+    background-color: rgba(203, 43, 231, 0.243);
+    height: 65%;
+    width: 65%;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(255, 255, 255, 0.085) 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headCard {
+    display: flex;
+    justify-content: center;
+}
+
+.logoCard {
+    display: flex;
+    justify-content: center;
+}
+
+.logoCard i {
+    margin: 1em;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.logoCard i:hover {
+    color: gold;
+    font-size: 1.6em;
+    margin: 0.9em;
+}
+
+#pp {
+    border-radius: 50%;
+    width: 6em;
+}
+
+#pp:hover {
+    border: #fff solid 2px;
+    width: 5.75em;
+}
+
+
+
+
+.Rmain {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.HrCard {
+    width: 60%;
+    display: flex;
+    margin: 0;
+}
+
+.bottomCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.descCard {
+    width: 80%;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.ContentMain {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+    border: solid 1px #fff;
+}
+
+
+
+
+
