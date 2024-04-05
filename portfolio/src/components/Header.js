@@ -9,12 +9,12 @@ export const Header = () => {
                 <div className='logo'>
                     <div className='circle'>
                     </div>
-                    <h1>S</h1>
+                    <h1 id='S'>S</h1>
                     <h2>imon Pereaux</h2>
                 </div>
             </div>
             <div className='right_header'>
-                
+
             </div>
         </div>  
     );

@@ -18,7 +18,8 @@ body, html {
     align-items: center;
     justify-content: center;
     /* on set le background de APP avec un image*/
-    background-image: url("./images/background_lobby.svg");
+    background-image: url("./images/background_hs.jpg");
+    /* on rend le background sombre */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
