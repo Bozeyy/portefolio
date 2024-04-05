@@ -1,0 +1,10 @@
+.content {
+    background-color: rgba(255, 0, 0, 0.174);
+    height: 70%;
+    width: 70%;
+    border-radius: 1em;
+    padding: 2em;
+    margin-top: 2em;
+    /* background blur */
+    backdrop-filter: blur(10px);
+}
