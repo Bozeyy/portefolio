@@ -1,0 +1,43 @@
+/* src/components/pages/Landing.css */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.landing-container {
+    height: 100vh;
+    /* Assure que le conteneur prend toute la hauteur de la fenêtre */
+    background-image: url('../assets/images/background.jpg');
+    /* Chemin vers votre image de fond */
+    background-size: cover;
+    /* L'image couvre toute la fenêtre sans répétition */
+    background-position: center;
+    /* Centre l'image */
+    background-repeat: no-repeat;
+    /* Empêche la répétition de l'image */
+}
+
+.task-bar {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    bottom: 0;
+    background: rgb(19, 69, 182);
+    background: linear-gradient(0deg, rgba(19, 69, 182, 1) 0%, rgba(35, 93, 219, 1) 14%, rgba(35, 93, 219, 1) 86%, rgba(72, 142, 227, 1) 100%);
+}
+
+.start-icon {
+    height: 100%;
+    width: 10em;
+    background-image: url('../assets/images/start-btn.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-desktop {
+    width: 100%;
+    height: calc(100% - 3em);
+}
